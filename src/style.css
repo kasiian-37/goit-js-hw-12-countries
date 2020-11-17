@@ -1,0 +1,89 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  background-image: url(../src/img/clear-air-fly-fantastic-travel-min.jpg);
+  background-size: cover;
+}
+
+.main__input {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  width: 400px;
+  height: 40px;
+  outline-color: rgb(246, 248, 248);
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.08),
+    0px 1px 1px rgba(0, 0, 0, 0.12);
+  font-size: 16px;
+}
+
+.countries__flag {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.countries__item {
+  width: 400px;
+  margin: 10px auto;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.countries__list {
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.countries__item-text {
+  text-align: center;
+  margin: 0;
+}
+
+.country {
+  display: flex;
+  border-radius: 10px;
+  padding: 0;
+  width: 60%;
+  margin: 50px auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.country__description {
+  width: 40%;
+  padding: 20px;
+  background-color: rgb(194, 223, 241);
+}
+
+.country__flag {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+  padding-left: 20px;
+  width: 60%;
+  background-color: rgb(194, 223, 241);
+}
+
+.country__flag-image {
+  display: block;
+  width: 100%;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
